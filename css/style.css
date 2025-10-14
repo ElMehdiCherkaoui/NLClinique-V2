@@ -22,6 +22,7 @@ body {
 #img-background {
   position: absolute;
   width: 100%;
+  z-index: -1;
 }
 
 .header__logo img {
@@ -89,7 +90,11 @@ body {
   margin-left: 800px;
   display: flex;
 }
-
-h1{
+.text-style {
   position: absolute;
+  margin-top: 150px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
