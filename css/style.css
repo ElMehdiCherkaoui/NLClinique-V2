@@ -553,7 +553,6 @@
   font-size: 2.5vh;
   position: relative;
   bottom: 16vh;
-  
 }
 .Appointment-btn {
   background-color: white;
@@ -562,13 +561,86 @@
   text-decoration: none;
   position: relative;
   bottom: 5vh;
-  color: #2677BC;
+  color: #2677bc;
 }
 .Appointment-btn i {
   color: white;
-  background-color: #2677BC;
+  background-color: #2677bc;
   border-radius: 50%;
   padding: 1vh;
   position: relative;
   left: 3vh;
+}
+.Content-pricing {
+  display: flex;
+  justify-content: center;
+}
+.pricing-form {
+  padding: 2vh;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.content-padding {
+  padding: 5vh;
+}
+.form-padding {
+  padding: 2vh;
+}
+.Content-pricing-txt h4 {
+  font-size: 4vh;
+}
+.Content-pricing-txt p {
+  padding: 2vh 0;
+}
+.price-fix {
+  display: flex;
+}
+.price-fix h4 {
+  font-size: 4vh;
+}
+.price-fix p {
+  position: relative;
+  top: 10px;
+  left: 4px;
+}
+.price span {
+  color: cyan;
+}
+.stats-price {
+  display: flex;
+  padding: 5px 0px;
+}
+.bottons select {
+  display: flex;
+  color: #db4746;
+  width: 100%;
+  padding: 10px 10px 10px 35px;
+  border-radius: 60px;
+  border: 1px solid #db4746;
+  font-size: 13px;
+}
+.bottons p {
+  display: flex;
+  justify-content: center;
+}
+.bottons span {
+  background-color: tomato;
+  padding: 6px 20px;
+  display: flex;
+  justify-content: center;
+  border-radius: 60px;
+  color: white;
+}
+.bottons {
+  line-height: 4vh;
+}
+.price-txt-fix {
+padding: 10vh 20vh 0 30vh;
+}
+.price-txt-fix .left-content-aboutus{
+  position: relative;
+  left: 15px;
+}
+.botton-plan{
+  padding: 40px 0;
 }
