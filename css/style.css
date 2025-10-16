@@ -70,8 +70,8 @@
   color: white;
   letter-spacing: 1px;
   font-size: 20px;
-  border: 2px solid #5EE088;
-  background-color: #289D80;
+  border: 2px solid #5ee088;
+  background-color: #289d80;
   padding: 8px 12px;
   border-radius: 10px 10px 0 10px;
 }
@@ -99,7 +99,7 @@
 }
 
 .btn {
-  background: #FF6F61;
+  background: #ff6f61;
   color: white;
   padding: 14px 24px;
   border-radius: 40px;
@@ -121,7 +121,7 @@
 .btn i {
   margin-left: 10px;
   background-color: white;
-  color: #FF6F61;
+  color: #ff6f61;
   padding: 7px;
   border-radius: 180px;
 }
@@ -134,7 +134,7 @@
   gap: 20px;
 }
 .clock-icon {
-  background-color: #5EE088;
+  background-color: #5ee088;
   border-radius: 15px;
   padding: 25px;
   color: white;
@@ -226,7 +226,7 @@
   gap: 15px;
 }
 .tool-text {
-  color: #63BBE9;
+  color: #63bbe9;
   font-size: 40px;
   letter-spacing: 3px;
 }
@@ -269,7 +269,7 @@
 }
 .right-content-doctor-txt {
   position: relative;
-  background-color: #5EE088;
+  background-color: #5ee088;
   bottom: 150px;
   padding: 30px 28px;
   color: white;
@@ -293,14 +293,14 @@
   background-color: #48de43;
   display: inline;
   border-radius: 8px 8px 0px 8px;
-  border: solid 2px green;
+  border: solid 2px #2ecc71;
   color: white;
   padding: 7px 12px;
 }
 .left-content-text h3 {
   font-size: 50px;
   padding: 10px 0px;
-  color: #3498DB;
+  color: #3498db;
 }
 .left-content-span {
   font-size: 20px;
@@ -317,7 +317,7 @@
   gap: 20px;
 }
 .left-content-hospital-bottom-px {
-  color: #3498DB;
+  color: #3498db;
 }
 .left-content-hospital-bottom-px img {
   position: relative;
@@ -345,17 +345,17 @@
   top: 40px;
 }
 .btn-aboutus {
-  background: #DB4746;
+  background: #db4746;
   color: white;
   padding: 14px 24px;
   border-radius: 40px;
   text-decoration: none;
-  border: 2px solid #FF6F61;
+  border: 2px solid #ff6f61;
 }
 .btn-aboutus i {
   margin-left: 10px;
   background-color: white;
-  color: #DB4746;
+  color: #db4746;
   padding: 7px;
   border-radius: 180px;
 }
@@ -370,7 +370,7 @@
   justify-content: space-between;
 }
 .infos-content h3 {
-  color: #3498DB;
+  color: #3498db;
   font-size: 8vh;
 }
 .infos-content span {
@@ -379,7 +379,6 @@
 .ourservice-content {
   background-color: white;
   padding: 15vh 2vh 0 2vh;
-
 }
 .bg-service {
   background-color: #f4f8fb;
@@ -389,7 +388,6 @@
 .Experience-raw {
   display: flex;
   justify-content: space-between;
-
 }
 .service-txt-top {
   padding: 2vh;
@@ -404,7 +402,7 @@
 }
 .txt-content h3 {
   font-size: 7vh;
-  color: #3498DB;
+  color: #3498db;
 }
 .raw-content {
   background-color: white;
@@ -420,39 +418,110 @@
   color: #d6f6fd;
   font-size: 8vh;
 }
-.img-txt-content img{
+.img-txt-content img {
   width: 8vh;
   height: 8vh;
 }
 .for-padding {
   padding: 2vh;
 }
-.txt-content-bottom{
-  padding: 1vh 0vh ;
+.txt-content-bottom {
+  padding: 1vh 0vh;
 }
-.txt-content-bottom h4{
+.txt-content-bottom h4 {
   padding: 3vh 0;
   font-size: 3.5vh;
-  color: #3498DB;
+  color: #3498db;
 }
-.txt-content-bottom span{
+.txt-content-bottom span {
   font-size: 2.3vh;
+  color: #5b5b5b;
 }
-.button-more{
+.button-more {
   padding: 3vh 0;
 }
-.button-more span{
-  
-  border: 2px solid #FF6F61;
+.button-more span {
+  border: 2px solid #ff6f61;
   border-radius: 8vh;
   padding: 1.5vh 3vh;
   display: inline;
-  color: #FF6F61;
+  color: #ff6f61;
 }
-.btn-services{
+.btn-services {
   padding: 2vh;
   position: absolute;
   right: 95vh;
   top: 10;
   z-index: 1;
+}
+.raw-content-doctor {
+  background-color: #f5f8fa;
+  border-radius: 5vh;
+  padding: 3vh 5vh;
+  line-height: 5vh;
+  text-align: center;
+}
+.Experience-raw-doctor {
+  display: flex;
+}
+.raw-content-doctor img {
+  position: relative;
+}
+.for-padding-doctor {
+  padding: 0vh 1vh;
+}
+.raw-content-doctor h4 {
+  color: #2677bc;
+  position: relative;
+  text-align: center;
+  font-size: 4vh;
+}
+.raw-content-doctor h5 {
+  color: #fe8074;
+  position: relative;
+  text-align: center;
+  font-size: 3vh;
+}
+.raw-content-doctor span {
+  position: relative;
+  text-align: center;
+  font-size: 2vh;
+  color: #5b5b5b;
+}
+.Doctor-content {
+  padding: 12vh;
+}
+.doctor-bar {
+  text-align: center;
+  padding-top: 5vh;
+}
+.doctor-bar h4 {
+  font-size: 5vh;
+  position: relative;
+  top: 6vh;
+  color: #3498db;
+}
+.Doctor-content-top {
+  background-color: #5ee088;
+  border: 2px solid #2ecc71;
+  font-size: 2.5vh;
+  padding: 1vh 2.5vh;
+  border-radius: 16vh 16vh 0 16vh;
+  letter-spacing: 2px;
+  color: white;
+}
+.btn-doctor {
+  padding: 2vh;
+  text-align: center;
+  position: relative;
+  bottom: 6vh;
+  z-index: 1;
+}
+.btn-doctor .btn {
+  font-size: 3vh;
+}
+.Doctor-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
