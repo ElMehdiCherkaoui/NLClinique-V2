@@ -485,7 +485,7 @@
 .raw-content-doctor span {
   position: relative;
   text-align: center;
-  font-size: 2vh;
+  font-size: 2.3vh;
   color: #5b5b5b;
 }
 .Doctor-content {
@@ -524,4 +524,51 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.Appointment-content {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.Appointment-all {
+  padding: 2vh;
+}
+.Appointment-txt {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  color: white;
+}
+.position-txt {
+  position: relative;
+}
+.Appointment-txt h4 {
+  font-size: 8vh;
+  position: relative;
+  bottom: 20vh;
+}
+.Appointment-txt span {
+  font-size: 2.5vh;
+  position: relative;
+  bottom: 16vh;
+  
+}
+.Appointment-btn {
+  background-color: white;
+  padding: 2vh 5vh;
+  border-radius: 6vh;
+  text-decoration: none;
+  position: relative;
+  bottom: 5vh;
+  color: #2677BC;
+}
+.Appointment-btn i {
+  color: white;
+  background-color: #2677BC;
+  border-radius: 50%;
+  padding: 1vh;
+  position: relative;
+  left: 3vh;
 }
