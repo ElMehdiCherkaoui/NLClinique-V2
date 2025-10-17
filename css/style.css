@@ -196,22 +196,22 @@ body {
   left: 180px;
 }
 #doctor-type {
-  background: white url("/images/doctors-bag.png") no-repeat 8px center;
+  background: white url("images/doctors-bag.png") no-repeat 8px center;
   background-size: 18px;
   padding-left: 35px;
 }
 #doctor-name {
-  background: white url("/images/straitjacket.png") no-repeat 8px center;
+  background: white url("images/straitjacket.png") no-repeat 8px center;
   background-size: 18px;
   padding-left: 35px;
 }
 #date {
-  background: white url("/images/calendar.png") no-repeat 8px center;
+  background: white url("images/calendar.png") no-repeat 8px center;
   background-size: 18px;
   padding-left: 35px;
 }
 #time {
-  background: white url("/images/clock.png") no-repeat 8px center;
+  background: white url("images/clock.png") no-repeat 8px center;
   background-size: 18px;
   padding-left: 35px;
 }
@@ -661,7 +661,7 @@ body {
   padding: 40px 0;
 }
 .Appointment-infos {
-  background: white url("/images/BackGround.png") no-repeat;
+  background: white url("images/BackGround.png") no-repeat;
   padding: 6rem;
   width: 216.8vh;
   height: 130vh;
@@ -811,6 +811,6 @@ body {
   color: #63bbe9;
 }
 #header-img {
-  background: white url("/images/BackGround.png");
+  background: white url("images/BackGround.png");
   background-size: cover;
 }
