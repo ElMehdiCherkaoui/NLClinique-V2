@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 /* <----------------------------Home Page----------------------------> */
+body {
+  height: auto;
+  width: 100%;
+}
 .hero {
   position: relative;
   overflow: hidden;
@@ -635,12 +639,94 @@
   line-height: 4vh;
 }
 .price-txt-fix {
-padding: 10vh 20vh 0 30vh;
+  padding: 10vh 20vh 0 30vh;
 }
-.price-txt-fix .left-content-aboutus{
+.price-txt-fix .left-content-aboutus {
   position: relative;
   left: 15px;
 }
-.botton-plan{
+.botton-plan {
   padding: 40px 0;
 }
+.Appointment-infos {
+  background: white url("/NLClinique-V2/images/Frame%201000001993.png")
+    no-repeat;
+  padding: 6rem;
+  width: 216.8vh;
+  height: 130vh;
+  background-size: cover;
+}
+
+.Appointment-bg {
+  padding: 10vh;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.Appointment-bg .left-content-aboutus {
+  position: relative;
+  bottom: 25px;
+}
+.h4-appointment {
+  color: #2677bc;
+  font-size: 5.5vh;
+}
+.infos-appoinment {
+  line-height: 2;
+  padding: 1.2vh 0vh;
+}
+.row-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.infos-appoinment input {
+  padding: 10px 58vh 10px 1vh;
+  border-radius: 8px;
+  border: #E5E5E5 1px solid;
+}
+.infos-appoinment select {
+  border-radius: 8px;
+  border: #E5E5E5 1px solid;
+}
+#timming {
+  padding: 10px 67vh 10px 0;
+  color: #969696;
+}
+#dates {
+  padding: 10px 67vh 10px 0;
+  color: #969696;
+}
+#doctor-Names {
+  padding: 10px 60vh 10px 0;
+  color: #969696;
+}
+#Doctor-types{
+  padding: 10px 61vh 10px 0;
+  color: #969696;
+}
+.Description span{
+  line-height: 50px;
+}
+.Description-content{
+  border: #2677BC 1px solid;
+  padding: 10vh;
+  border-radius: 10px;
+}
+.Description-content p{
+  position: relative;
+  right: 60px;
+  bottom: 60px;
+}
+.botton-appointment a{
+  text-decoration: none;
+  color: white;
+  background-color: #FF6F61;
+  padding: 2vh;
+  display: grid;
+  text-align: center;
+  border-radius: 80px;
+  font-size: 3vh;
+  position: relative;
+  top: 30px;
+}
+
