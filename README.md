@@ -11,8 +11,6 @@ The goal of this website is to provide visitors with all the information they ne
 ## 💻 Technologies Used
 - **HTML5** — for structure and content  
 - **CSS3** — for styling and layout  
-- **Font Awesome** — for icons  
-- **Responsive Design** — to make it look good on all screen sizes  
 
 ---
 
