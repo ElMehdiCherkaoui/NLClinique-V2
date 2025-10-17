@@ -4,10 +4,18 @@
   box-sizing: border-box;
 }
 /* <----------------------------Home Page----------------------------> */
+h1,h2,h3,h4,h5{
+  font-weight: bold ;
+} 
+span, a {
+  font-weight: medium;
+}
+p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 body {
   height: auto;
   width: 100%;
-  font-family: sans-serif
 }
 .hero {
   position: relative;
@@ -650,7 +658,7 @@ body {
   padding: 40px 0;
 }
 .Appointment-infos {
-  background: white url("/NLClinique-V2/images/Frame%201000001993.png")
+  background: white url("/NLClinique-V2/images/BackGround.png")
     no-repeat;
   padding: 6rem;
   width: 216.8vh;
@@ -801,5 +809,7 @@ body {
   color: #63bbe9;
 }
 #header-img{
-  background: white url("/NLClinique-V2/images/Frame%201000001993.png")
+  background: white url("/NLClinique-V2/images/BackGround.png");
+  background-size: cover;
+  
 }
