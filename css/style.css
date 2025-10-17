@@ -661,7 +661,7 @@ body {
   padding: 40px 0;
 }
 .Appointment-infos {
-  background: white url("/images/BackGround.png") no-repeat;
+  background: white url("images/BackGround.png") no-repeat;
   padding: 6rem;
   width: 216.8vh;
   height: 130vh;
