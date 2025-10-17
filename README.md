@@ -1,8 +1,8 @@
-# 🏥 Wellness Hospital Website
+# 🏥 NLClinique
 
 ## 📖 Description  
 This project is a **modern hospital website** built using **HTML and CSS**.  
-It presents the services, doctors, pricing plans, and appointment booking options for **Wellness Hospital** in a clean and responsive design.  
+It presents the services, doctors, pricing plans, and appointment booking options for **Hospital** in a clean and responsive design.  
 
 The goal of this website is to provide visitors with all the information they need about the hospital and allow them to easily **book an appointment online**.
 
