@@ -24,6 +24,4 @@ The goal of this website is to provide visitors with all the information they ne
 - **Pricing Plans**  
 - **Footer with Contact Info**
 
----
 
-## 📂 Project Structure
