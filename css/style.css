@@ -4,14 +4,20 @@
   box-sizing: border-box;
 }
 /* <----------------------------Home Page----------------------------> */
-h1,h2,h3,h4,h5{
-  font-weight: bold ;
-} 
-span, a {
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: bold;
+}
+span,
+a {
   font-weight: medium;
 }
-p{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 body {
   height: auto;
@@ -190,25 +196,22 @@ body {
   left: 180px;
 }
 #doctor-type {
-  background: white url("/NLClinique-V2/images/doctors-bag.png") no-repeat 8px
-    center;
+  background: white url("/images/doctors-bag.png") no-repeat 8px center;
   background-size: 18px;
   padding-left: 35px;
 }
 #doctor-name {
-  background: white url("/NLClinique-V2/images/straitjacket.png") no-repeat 8px
-    center;
+  background: white url("/images/straitjacket.png") no-repeat 8px center;
   background-size: 18px;
   padding-left: 35px;
 }
 #date {
-  background: white url("/NLClinique-V2/images/calendar.png") no-repeat 8px
-    center;
+  background: white url("/images/calendar.png") no-repeat 8px center;
   background-size: 18px;
   padding-left: 35px;
 }
 #time {
-  background: white url("/NLClinique-V2/images/clock.png") no-repeat 8px center;
+  background: white url("/images/clock.png") no-repeat 8px center;
   background-size: 18px;
   padding-left: 35px;
 }
@@ -658,8 +661,7 @@ body {
   padding: 40px 0;
 }
 .Appointment-infos {
-  background: white url("/NLClinique-V2/images/BackGround.png")
-    no-repeat;
+  background: white url("/images/BackGround.png") no-repeat;
   padding: 6rem;
   width: 216.8vh;
   height: 130vh;
@@ -805,11 +807,10 @@ body {
 .Location p {
   padding: 0.8rem 0;
 }
-.Location span{
+.Location span {
   color: #63bbe9;
 }
-#header-img{
-  background: white url("/NLClinique-V2/images/BackGround.png");
+#header-img {
+  background: white url("/images/BackGround.png");
   background-size: cover;
-  
 }
