@@ -682,11 +682,11 @@ body {
 .infos-appoinment input {
   padding: 10px 58vh 10px 1vh;
   border-radius: 8px;
-  border: #E5E5E5 1px solid;
+  border: #e5e5e5 1px solid;
 }
 .infos-appoinment select {
   border-radius: 8px;
-  border: #E5E5E5 1px solid;
+  border: #e5e5e5 1px solid;
 }
 #timming {
   padding: 10px 67vh 10px 0;
@@ -700,27 +700,27 @@ body {
   padding: 10px 60vh 10px 0;
   color: #969696;
 }
-#Doctor-types{
+#Doctor-types {
   padding: 10px 61vh 10px 0;
   color: #969696;
 }
-.Description span{
+.Description span {
   line-height: 50px;
 }
-.Description-content{
-  border: #2677BC 1px solid;
+.Description-content {
+  border: #2677bc 1px solid;
   padding: 10vh;
   border-radius: 10px;
 }
-.Description-content p{
+.Description-content p {
   position: relative;
   right: 60px;
   bottom: 60px;
 }
-.botton-appointment a{
+.botton-appointment a {
   text-decoration: none;
   color: white;
-  background-color: #FF6F61;
+  background-color: #ff6f61;
   padding: 2vh;
   display: grid;
   text-align: center;
@@ -730,3 +730,75 @@ body {
   top: 30px;
 }
 
+.footer-default {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem;
+}
+.left-footer {
+  line-height: 1.6;
+}
+.btn-footer {
+  padding: 1.5rem 0;
+}
+.btn-footer input {
+  padding: 1.6em 6em 1.6em 1.6em;
+  border-radius: 16rem;
+  border: 1px solid #3498db;
+  color: #969696;
+}
+.btn-footer button {
+  padding: 1.3rem 2rem;
+  border-radius: 16rem;
+  background-color: white;
+  color: #3498db;
+  border: 1px solid #3498db;
+}
+.left-footer span {
+  color: #3498db;
+}
+.social-media a {
+  padding: 0.3rem;
+  position: relative;
+  top: 2rem;
+  display: inline-block;
+}
+.footer-infos {
+  position: relative;
+  right: 3rem;
+}
+.footer-infos1 {
+  display: flex;
+  padding: 1rem;
+}
+.content-info {
+  display: grid;
+  grid-template-columns: 12rem;
+  line-height: 2.3rem;
+}
+.Location {
+  position: relative;
+  top: 2rem;
+  padding: 1rem;
+}
+.content-info h4 {
+  color: #2677bc;
+  font-size: 1.3rem;
+}
+.content-info span {
+  color: #63bbe9;
+}
+.Location h4 {
+  padding: 1rem 0;
+  color: #2677bc;
+  font-size: 1.3rem;
+}
+.Location p {
+  padding: 0.8rem 0;
+}
+.Location span{
+  color: #63bbe9;
+}
+#header-img{
+  background: white url("/NLClinique-V2/images/Frame%201000001993.png")
+}
